@@ -21,6 +21,7 @@
     "cheerio": "^1.0.0",
     "crypto": "^1.0.1",
     "d-scrape": "^1.2.0",
+        "express": "^4.18.2",
     "fake-useragent": "^1.0.1",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "file-type": "^16.5.4",
@@ -50,5 +51,8 @@
     "yargs": "^17.7.2",
     "yt-search": "^2.12.1"
   },
-  "keywords": ["WhatsApp", "bot", "Baileys", "multi-device"]
+  "keywords": ["WhatsApp", "bot", "Baileys", "multi-device"],
+  "engines": {
+    "node": "20.x"
+  }
 }
